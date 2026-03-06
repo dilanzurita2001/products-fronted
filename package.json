@@ -9,9 +9,6 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "engines": {
-  "node": "22.x"
-  },
   "dependencies": {
     "@apollo/client": "^4.1.2",
     "@emotion/react": "^11.14.0",

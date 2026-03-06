@@ -122,7 +122,7 @@ export default function Products() {
       const payload = {
         name: formData.name,
         description: formData.description,
-        price: parseFloat(String(formData.price)),
+        price: Number(formData.price) || 0,
       };
 
       if (editingProduct) {
